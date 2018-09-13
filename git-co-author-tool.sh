@@ -7,6 +7,7 @@ while true; do
   echo Please select an option below:
   echo 1. Set co-author config
   echo 2. Create git commit
+  echo 3. Push to master
 
   read input
 
@@ -47,6 +48,15 @@ while true; do
     Co-authored-by: $user1FullName <$user1Email>
     Co-authored-by: $user2FullName <$user2Email>"
     
+  else
+    echo Please enter valid input.
+  fi
+
+  # Option 3 - Push to master
+  if [ $input == 3 ]
+  then
+    # Push to master
+    git push origin master
   else
     echo Please enter valid input.
   fi
