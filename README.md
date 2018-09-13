@@ -22,15 +22,13 @@ A CLI tool for setting co-author config and creating co-author git commits, ensu
 
 This script will need to be running in a seperate tab while you are working on your project. I suggest using `git add` from one tab, and switch back to the tab where this script is running to make your co-author commits.
 
-**Key Features:**
-
-### Set co-author config
+### 1. Set co-author config
 This must be set each time you run this tool. If you cntrl-c and quit this tool, you will need to once again set your co-author config the next time you run the script.
 
-### Create commit
+### 2. Create commit
 This will accept a string as your commit message, and append the co-author tags based on the configuration from Main Menu option 1. You should use `git add` from another tab, and switch back to the terminal tab where this script is running in order create commit (option 2), and optionally push to master (option 3).
   
-### Push to master
+### 3. Push to master
 This will run the command `git push origin master`. Only use it if you have an `origin` reference.
 
 ## Contribution Requirements
