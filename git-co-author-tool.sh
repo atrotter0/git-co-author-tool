@@ -8,6 +8,8 @@ while true; do
   echo 1. Set co-author config
   echo 2. Create git commit
   echo 3. Push to master
+  echo ""
+  echo Use ctrl-c to quit
 
   read input
 
