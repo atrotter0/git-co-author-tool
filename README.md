@@ -26,7 +26,7 @@ This script will need to be running in a seperate tab while you are working on y
 This must be set each time you run this tool. If you cntrl-c and quit this tool, you will need to once again set your co-author config the next time you run the script.
 
 ### 2. Create commit
-This will accept a string as your commit message, and append the co-author tags based on the configuration from Main Menu option 1. You should use `git add` from another tab, and switch back to the terminal tab where this script is running in order create commit (option 2), and optionally push to master (option 3).
+This will accept a string as your commit message, and append the co-author tags based on the configuration from Main Menu option 1. You should use `git add` from another tab, and switch back to the terminal tab where this script is running in order to create a commit (option 2), and optionally push to master (option 3).
   
 ### 3. Push to master
 This will run the command `git push origin master`. Only use it if you have an `origin` reference.
@@ -45,7 +45,7 @@ This will run the command `git push origin master`. Only use it if you have an `
 
 ## Links
 
-* [Github Repo] ()
+* [Github Repo] (https://github.com/atrotter0/git-co-author-tool)
 
 ## License
 
