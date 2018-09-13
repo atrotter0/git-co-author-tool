@@ -33,8 +33,6 @@ while true; do
     read user2Email
 
     echo Co-author settings saved!
-  else
-    echo Please enter valid input.
   fi
 
   # Option 2 - Create git commit
@@ -44,14 +42,11 @@ while true; do
     echo Please enter a commit message:
     read msg
 
-    git commit -m "$(echo -e "$msg\n\n Co-authored-by: $user1FullName <$user1Email>\nCo-authored-by: $user2FullName <$user2Email>")"
+    git commit -m "$(echo -e "$msg\n\nCo-authored-by: $user1FullName <$user1Email>\nCo-authored-by: $user2FullName <$user2Email>")"
     #echo -ne '\n'
     #echo -ne '\n'
     #Co-authored-by: $user1FullName <$user1Email>
     #Co-authored-by: $user2FullName <$user2Email>"
-    
-  else
-    echo Please enter valid input.
   fi
 
   # Option 3 - Push to master
@@ -59,7 +54,5 @@ while true; do
   then
     # Push to master
     git push origin master
-  else
-    echo Please enter valid input.
   fi
 done
