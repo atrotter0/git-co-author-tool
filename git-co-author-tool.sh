@@ -45,8 +45,8 @@ while true; do
     read msg
 
     git commit -m "$msg
-    yes
-    yes
+    echo -ne '\n'
+    echo -ne '\n'
     Co-authored-by: $user1FullName <$user1Email>
     Co-authored-by: $user2FullName <$user2Email>"
     
