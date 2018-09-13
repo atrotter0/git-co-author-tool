@@ -1,0 +1,1 @@
+# Git Co-Author Tool
