@@ -3,7 +3,7 @@
 
 while true; do
   echo MAIN MENU
-  echo ===========
+  echo ==============================
   echo Please select an option below:
   echo 1. Set co-author config
   echo 2. Create git commit
