@@ -1,3 +1,3 @@
 # Git Co-Author Tool
 
-## By Abel Trotter
+#### By Abel Trotter
